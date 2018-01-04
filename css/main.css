@@ -64,6 +64,15 @@ h1 {
   background-position: 25% 0%;
 }
 
+/* ADOPT SECTION ON HOME PAGE */
+
+.homepage-adopt-banner {
+  background-image: url("../images/banner-3.jpg");
+  min-height: 800px;
+  background-size: cover;
+  background-position: 25% 0%;
+}
+
 /* NAVIGATION CODE */
 
 .nav {
