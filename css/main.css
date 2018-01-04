@@ -1,5 +1,5 @@
 html {
-  font-family: "PT Sans", sans-serif
+  font-family: "PT Sans", sans-serif;
   color: #214E5B;
   -webkit-font-smoothing: antialiased;
 }
@@ -21,6 +21,23 @@ header {
 
 .logo {
   height: 20px;
+}
+
+.banner {
+  background-image: url("../images/sloth-banner.jpg");
+  min-height: 600px;
+  background-size: cover;
+  background-position: 25% 0%;
+}
+
+.banner-text {
+  text-align: right;
+  bottom: 30px;
+  max-width: 800px;
+}
+
+.banner-text p {
+  color: #fff;
 }
 
 /* NAVIGATION CODE */
