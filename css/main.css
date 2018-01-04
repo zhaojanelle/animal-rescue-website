@@ -26,7 +26,7 @@ header {
   background-image: url("../images/sloth-banner.jpg");
   min-height: 800px;
   background-size: cover;
-  background-position: 25% 0%;
+  background-position: 60% 0%;
 }
 
 .banner-text {
@@ -55,13 +55,17 @@ h1 {
   color: #fff;
 }
 
+footer {
+  background-color: #DCE0D1;
+}
+
 /* RESCUE SECTION ON HOME PAGE */
 
 .homepage-rescue-banner {
   background-image: url("../images/banner-2.jpg");
   min-height: 800px;
   background-size: cover;
-  background-position: 25% 0%;
+  background-position: 70% 0%;
 }
 
 /* ADOPT SECTION ON HOME PAGE */
@@ -83,6 +87,7 @@ h1 {
   right: 0;
   top: 100%;
   width: 100%;
+  background-color: rgba(33, 78, 91, .92);
 }
 
 .nav a {
@@ -253,6 +258,6 @@ h1 {
 }
 
 .btn-transparent:hover {
-  background-color: #588351;
-  border: 1px solid #588351;
+  background-color: rgba(33, 78, 91, .80);
+  border: 1px solid rgba(33, 78, 91, .80);
 }
