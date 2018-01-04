@@ -1,3 +1,9 @@
+html {
+  font-family: "PT Sans", sans-serif
+  color: #214E5B;
+  -webkit-font-smoothing: antialiased;
+}
+
 header {
   text-align: left;
   position: absolute;
@@ -5,6 +11,7 @@ header {
   left: 0;
   top: 0;
   right: 0;
+  background-color: #588351;
 }
 
 .section-heading {
