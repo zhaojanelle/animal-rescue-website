@@ -31,13 +31,23 @@ header {
 
 .banner-text {
   text-align: center;
-  bottom: 30px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .banner-text p {
   color: #fff;
+}
+
+.i-down-arrow {
+  background-image: url("../images/down-arrow.svg");
+}
+
+.down-arrow {
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 h1 {
@@ -225,6 +235,6 @@ h1 {
 }
 
 .btn-transparent:hover {
-  background-color: #DCE0D1;
-  border: 1px solid #DCE0D1;
+  background-color: #588351;
+  border: 1px solid #588351;
 }
