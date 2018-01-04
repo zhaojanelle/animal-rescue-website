@@ -11,7 +11,6 @@ header {
   left: 0;
   top: 0;
   right: 0;
-  background-color: #588351;
 }
 
 .section-heading {
@@ -24,25 +23,24 @@ header {
 }
 
 .banner {
-  background-image: url("../images/sloth-banner0.jpg");
-  min-height: 600px;
+  background-image: url("../images/sloth-banner.jpg");
+  min-height: 800px;
   background-size: cover;
   background-position: 25% 0%;
 }
 
 .banner-text {
-  text-align: left;
+  text-align: center;
   bottom: 30px;
-  max-width: 800px;
 }
 
 .banner-text p {
-  color: #000;
+  color: #fff;
 }
 
 h1 {
   font-family: "Nunito", sans-serif;
-  color: #588351;
+  color: #fff;
 }
 
 /* NAVIGATION CODE */
@@ -55,7 +53,6 @@ h1 {
   right: 0;
   top: 100%;
   width: 100%;
-  background-color: #2D3740;
 }
 
 .nav a {
@@ -106,6 +103,10 @@ h1 {
 
 .nav-check:checked ~ .nav-label .nav-close {
   display: block;
+}
+
+.green {
+  color: #588351;
 }
 
 @media only screen and (min-width: 38em) {
@@ -160,4 +161,53 @@ h1 {
     float: left;
     width: 35%;
   }
+}
+
+/* ADOPT PAGE */
+
+.banner-adopt {
+  background-image: url("../images/banner-signup.jpg");
+  min-height: 900px;
+  background-size: cover;
+  background-position: 25% 0%;
+}
+
+.nav-dark {
+  background-color: #588351;
+}
+
+.adopt-text {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.white {
+  color: #fff;
+}
+
+.adopt-text p {
+  max-width: 630px;
+  margin: 0 auto;
+}
+
+.adopt-form {
+  background-color: rgba(255, 255, 255, .9);
+  border-radius: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.signup-input {
+  border: none;
+  border-bottom: 1px solid #5c91b0;
+  background-color: transparent;
+  font-size: .75rem;
+  color: #ababac;
+}
+
+.signup-label {
+  font-size: 1rem;
+  color: #95989a;
 }
