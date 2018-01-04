@@ -22,7 +22,7 @@ header {
   height: 20px;
 }
 
-.banner {
+.main-banner {
   background-image: url("../images/sloth-banner.jpg");
   min-height: 800px;
   background-size: cover;
@@ -53,6 +53,15 @@ header {
 h1 {
   font-family: "Nunito", sans-serif;
   color: #fff;
+}
+
+/* RESCUE SECTION ON HOME PAGE */
+
+.homepage-rescue-banner {
+  background-image: url("../images/banner-2.jpg");
+  min-height: 800px;
+  background-size: cover;
+  background-position: 25% 0%;
 }
 
 /* NAVIGATION CODE */
