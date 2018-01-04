@@ -24,20 +24,25 @@ header {
 }
 
 .banner {
-  background-image: url("../images/sloth-banner.jpg");
+  background-image: url("../images/sloth-banner0.jpg");
   min-height: 600px;
   background-size: cover;
   background-position: 25% 0%;
 }
 
 .banner-text {
-  text-align: right;
+  text-align: left;
   bottom: 30px;
   max-width: 800px;
 }
 
 .banner-text p {
-  color: #fff;
+  color: #000;
+}
+
+h1 {
+  font-family: "Nunito", sans-serif;
+  color: #588351;
 }
 
 /* NAVIGATION CODE */
