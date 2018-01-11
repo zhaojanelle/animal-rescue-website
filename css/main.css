@@ -76,7 +76,7 @@ h4 {
 
 .banner-text {
   text-align: center;
-  top: -400px;
+  bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
   margin: 0 auto;

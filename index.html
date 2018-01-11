@@ -43,14 +43,14 @@
   </header>
 
   <section class="main-banner relative">
-  </section>
-
-  <section class="sloth-facts relative">
     <div class="banner-text absolute">
       <h1 class="tena">Welcome to <br/>Sloth Sanctuary</h1>
       <p>Learn more about sloths and how to help them thrive!</p>
       <a class="btn btn-transparent" href="adopt.html">Adopt one today!</a>
     </div>
+  </section>
+
+  <section class="sloth-facts relative">
 
     <div class="pad-t-2 pad-b-2">
       <h2 class="exa center-text">8 Facts About Sloths</h2>
@@ -133,10 +133,6 @@
         triggerHook: 'onLeave'
       }
     });
-
-    new ScrollMagic.Scene({
-      triggerElement: '.main-banner'
-    }).setPin('.main-banner').addTo(controller);
 
     new ScrollMagic.Scene({
       triggerElement: '.sloth-facts',
