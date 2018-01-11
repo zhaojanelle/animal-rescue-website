@@ -57,10 +57,14 @@ footer {
 /* CODE FOR BANNERS */
 
 .main-banner {
-  background-image: url("../images/sloth-banner.jpg");
+  /* background-image: url("../images/sloth-banner.jpg"); */
   height: 800px;
-  background-size: cover;
+  /* background-size: cover; */
   background-position: 60% 0%;
+}
+
+.banner-image {
+  height: 800px;
 }
 
 .banner-text {
@@ -78,6 +82,20 @@ footer {
 
 .sloth-facts {
   background-color: #DCE0D1;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .sloth-facts {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 25em) {
+
+  .sloth-facts {
+    text-align: left;
+  }
 }
 
 /* ADOPT SECTION ON HOME PAGE */
@@ -208,12 +226,6 @@ footer {
 
 /* ADOPT PAGE */
 
-.banner-adopt {
-  background-image: url("../images/banner-signup.jpg");
-  min-height: 900px;
-  background-size: cover;
-  background-position: 25% 0%;
-}
 
 .nav-dark {
   background-color: #588351;
