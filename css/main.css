@@ -53,13 +53,22 @@ footer {
   background-color: #DCE0D1;
 }
 
+.dash {
+  width: 83px;
+  margin: 0 auto;
+  background-color: #C59332;
+  height: 5px;
+  border: 0;
+  border-radius: 2px;
+}
+
 
 /* CODE FOR BANNERS */
 
 .main-banner {
-  /* background-image: url("../images/sloth-banner.jpg"); */
+  background-image: url("../images/sloth-banner.jpg");
   height: 800px;
-  /* background-size: cover; */
+  background-size: cover;
   background-position: 60% 0%;
 }
 
@@ -265,6 +274,27 @@ footer {
 .signup-label {
   font-size: 1rem;
   color: #95989a;
+}
+
+/* RESCUE PAGE */
+
+.rescue-banner {
+  background-image: url("../images/banner-2.jpg");
+  min-height: 800px;
+  background-size: cover;
+  background-position: 25% 0%;
+}
+
+.rescue-banner-text {
+  text-align: center;
+  max-width: 800px;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.blue-text {
+  color: #214E5B;
 }
 
 /* BUTTON CODE */
