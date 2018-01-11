@@ -16,7 +16,7 @@ header {
 }
 
 header.opaque {
-  background-color: #588351;
+  background-color: #DCE0D1;
 }
 
 .section-heading {
@@ -65,13 +65,10 @@ footer {
   background-color: #DCE0D1;
 }
 
-/* RESCUE SECTION ON HOME PAGE */
+/* SLOTH FACTS SECTION ON HOME PAGE */
 
-.homepage-rescue-banner {
-  background-image: url("../images/banner-2.jpg");
-  min-height: 800px;
-  background-size: cover;
-  background-position: 70% 0%;
+.sloth-facts {
+  background-color: #DCE0D1;
 }
 
 /* ADOPT SECTION ON HOME PAGE */
@@ -93,7 +90,7 @@ footer {
   right: 0;
   top: 100%;
   width: 100%;
-  background-color: rgba(33, 78, 91, .92);
+  background-color: #DCE0D1;
 }
 
 .nav a {
