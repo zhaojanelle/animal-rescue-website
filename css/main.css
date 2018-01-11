@@ -6,11 +6,17 @@ html {
 
 header {
   text-align: left;
-  position: absolute;
+  position: fixed;
   padding: 1rem 0 0;
   left: 0;
   top: 0;
   right: 0;
+  transition: background-color 0.5s ease-in-out;
+  background-color: transparent;
+}
+
+header.opaque {
+  background-color: #588351;
 }
 
 .section-heading {
@@ -24,7 +30,7 @@ header {
 
 .main-banner {
   background-image: url("../images/sloth-banner.jpg");
-  min-height: 800px;
+  height: 800px;
   background-size: cover;
   background-position: 60% 0%;
 }
