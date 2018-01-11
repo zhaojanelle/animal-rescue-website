@@ -41,7 +41,7 @@
     </div>
   </header>
 
-  <main class="push">
+  <section class="push">
     <div class="wrapper adopt-text island">
       <div class="push-double">
         <h2 class="push-half ">Adopt a sloth today!</h2>
@@ -49,32 +49,82 @@
         <p class="pad-t">Become a Compadre and symbolically adopt a rescued sloth! Your donation goes toward their nutrition, wellness and essential research. Your donation benefits all of the rescued sloths in our care, not just one!</p>
         <h4>FAQ</h4>
       </div>
+    </div>
+  </section>
+  <section class="adopt-form island push-2">
+    <form method="POST" action="https://formspree.io/zhaojanelle@gmail.com">
+      <legend class="center-text push-1-2"><h4>Your Information</h4></legend>
       <div class="grid">
-        <div class="adopt-form island text-left unit xs-1 s-1 m-1 l-1">
-          <form method="POST" action="https://formspree.io/zhaojanelle@gmail.com">
-            <label class="signup-label kilo" for="name">NAME</label>
-            <input class="push signup-input" type="text" id="name" name="name" required>
-            <label class="signup-label kilo" for="email">EMAIL</label>
-            <input class="push signup-input" type="email" id="email" placeholder="your@email.com" name="email" required>
-            <label class="signup-label kilo" for="referral">REFERRAL</label>
-            <select class="push signup-input" id="referral">
-              <option>Facebook</option>
-              <option>Twitter</option>
-              <option>Instagram</option>
-              <option>Email</option>
-              <option>Word of Mouth</option>
-              <option>Others</option>
-            </select>
-            <div class="text-center">
-              <button class="btn btn-green" type="submit">Complete Adoption Form</button>
-            </div>
-          </form>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1-2 l-1-2">
+          <label class="signup-label kilo" for="name">First Name</label>
+          <input class="push signup-input" type="text" id="name" name="name" required>
+        </div>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1-2 l-1-2">
+          <label class="signup-label kilo" for="name">Last Name</label>
+          <input class="push signup-input" type="text" id="name" name="name" required>
+        </div>
+        <div class="gutter-1-4 ttext-left unit xs-1 s-1 m-1-2 l-1-2">
+          <label class="signup-label kilo" for="name">Address</label>
+          <input class="push signup-input" type="text" id="name" name="name" required>
+        </div>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1-2 l-1-2">
+          <label class="signup-label kilo" for="name">City</label>
+          <input class="push signup-input" type="text" id="name" name="name" required>
+        </div>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1-2 l-1-2">
+          <label class="signup-label kilo" for="name">Prov/State</label>
+          <input class="push signup-input" type="text" id="name" name="name" required>
+        </div>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1-2 l-1-2">
+          <label class="signup-label kilo" for="name">Zip/Postal Code</label>
+          <input class="push signup-input" type="text" id="name" name="name" required>
+        </div>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1-2 l-1-2">
+          <label class="signup-label kilo" for="name">Country</label>
+          <input class="push signup-input" type="text" id="name" name="name" required>
+        </div>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1-2 l-1-2">
+          <label class="signup-label kilo" for="email">Email Address</label>
+          <input class="push signup-input" type="email" id="email" placeholder="your@email.com" name="email" required>
+        </div>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1-2 l-1-2">
+          <label class="signup-label kilo" for="name">Phone Number</label>
+          <input class="push signup-input" type="text" id="name" name="name" required>
+        </div>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1-2 l-1-2">
+          <label class="signup-label kilo" for="name">Best time to call?</label>
+          <select class="push signup-input" id="referral">
+            <option>Morning</option>
+            <option>Noon</option>
+            <option>Evening</option>
+          </select>
+        </div>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1 l-1">
+          <label class="signup-label kilo" for="referral">Which sloth would you like to adopt?</label>
+          <select class="push signup-input" id="referral">
+            <option>Buttercup</option>
+            <option>Ubu</option>
+            <option>Biscuit</option>
+            <option>Tammy</option>
+            <option>Word of Mouth</option>
+            <option>Others</option>
+          </select>
+        </div>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1 l-1">
+          <label class="signup-label kilo" for="referral">Select Delivery Method</label>
+          <input type="radio" id="sendmail" name="delivery">
+          <label for="sendmail">Send by Mail</label>
+          <input type="radio" id="sendemail" name="delivery">
+          <label for="sendemail">Send Certificate by Email </label>
+        </div>
+        <div class="island text-center unit xs-1 s-1 m-1 l-1">
+            <button class="btn" type="submit">Complete Adoption Form</button>
         </div>
       </div>
-    </div>
-  </main>
+    </form>
+  </section>
 
-  <footer class="clearfix pad-top pad-b">
+  <footer class="clearfix pad-t-2 pad-b">
     <div class="wrapper gutter">
       <div class="socials push">
         <i class="icon i-32">
