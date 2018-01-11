@@ -70,6 +70,7 @@ footer {
   height: 800px;
   background-size: cover;
   background-position: 60% 0%;
+  overflow: hidden;
 }
 
 .banner-image {
@@ -81,6 +82,7 @@ footer {
   bottom: 100px;
   left: 50%;
   transform: translateX(-50%);
+  margin: 0 auto;
 }
 
 .banner-text p {
@@ -294,6 +296,23 @@ footer {
 }
 
 .blue-text {
+  color: #214E5B;
+}
+
+.rescue-images {
+  border-radius: 10px 10px 0 0;
+}
+.rescue-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.rescue-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.link-box p {
   color: #214E5B;
 }
 
