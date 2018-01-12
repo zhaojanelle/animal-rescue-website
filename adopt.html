@@ -41,12 +41,12 @@
     </div>
   </header>
 
-  <section class="push">
+  <section class="push-1-2 pad-t-2">
     <div class="wrapper adopt-text island">
-      <div class="push-double">
-        <h2 class="push-half ">Adopt a sloth today!</h2>
+      <div class="push">
+        <h2 class="push-half">Adopt a sloth today!</h2>
         <hr class="dash center-text">
-        <p class="pad-t">Become a Compadre and symbolically adopt a rescued sloth! Your donation goes toward their nutrition, wellness and essential research. Your donation benefits all of the rescued sloths in our care, not just one!</p>
+        <p class="pad-t">Your donation goes toward their nutrition, wellness and essential research. Your donation benefits all of the rescued sloths in our care, not just one!</p>
       </div>
     </div>
   </section>
@@ -109,16 +109,40 @@
             <option>Others</option>
           </select>
         </div>
+        <div class="gutter-1-4 push-1-2 text-left unit xs-1 s-1 m-1 l-1">
+          <label class="signup-label kilo" for="gift">Is this a gift?</label>
+          <div class="grid">
+            <div class="unit xs-1-2 s-1-2">
+              <input type="radio" id="gift" name="yes">
+              <label for="sendmail">Yes</label>
+            </div>
+            <div class="unit xs-1-2 s-1-2">
+              <input type="radio" id="gift" name="no">
+              <label for="sendemail">No</label>
+            </div>
+          </div>
+        </div>
+        <div class="gutter-1-4 text-left unit xs-1 s-1 m-1">
+          <label class="signup-label kilo" for="giftname">If yes, who are you gifting this to?</label>
+          <input class="push signup-input" type="text" id="giftname" required>
+        </div>
         <div class="gutter-1-4 text-left unit xs-1 s-1 m-1 l-1">
           <label class="signup-label kilo" for="delivery">Select Delivery Method</label>
-          <input type="radio" id="sendmail" name="delivery">
-          <label for="sendmail">Send by Mail</label>
-          <input type="radio" id="sendemail" name="delivery">
-          <label for="sendemail">Send Certificate by Email </label>
+          <div class="grid">
+            <div class="unit xs-1-2 s-1-2">
+              <input type="radio" id="delivery" name="sendmail">
+              <label for="sendmail">Send by Mail</label>
+            </div>
+            <div class="unit xs-1-2 s-1-2">
+              <input type="radio" id="delivery" name="sendemail">
+              <label for="sendemail">Send Certificate by Email </label>
+            </div>
+          </div>
         </div>
         <div class="island text-center unit xs-1 s-1 m-1 l-1">
-            <button class="btn" type="submit">Complete Adoption Form</button>
+            <button class="btn btn-ghost btn-ghost-adopt" type="submit">Complete Adoption Form</button>
         </div>
+
       </div>
     </form>
   </section>

@@ -76,10 +76,18 @@ h4 {
 
 .banner-text {
   text-align: center;
-  bottom: 100px;
+  bottom: 200px;
   left: 50%;
   transform: translateX(-50%);
   margin: 0 auto;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-text {
+    bottom: 250px;
+  }
+
 }
 
 .banner-text p {
@@ -270,6 +278,8 @@ h4 {
   border-radius: 20px;
   max-width: 600px;
   margin: 0 auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+
 }
 
 .signup-input {
@@ -293,7 +303,7 @@ h4 {
 
 .rescue-banner {
   background-image: url("../images/banner-2.jpg");
-  min-height: 800px;
+  min-height: 600px;
   background-size: cover;
   background-position: 25% 0%;
 }
@@ -330,16 +340,27 @@ h4 {
 
 /* BUTTON CODE */
 
-  .btn-transparent {
+  .btn-ghost {
     border-radius: 30px;
-    font-weight: 300;
+    font-weight: 700;
     border: 1px solid #fff;
     padding: .5rem 2rem;
     background-color: transparent;
+    color: #fff;
   }
 
-  .btn-transparent:hover {
+  .btn-ghost:hover {
     background-color: rgba(88, 131, 81, .80);
     border: 1px solid rgba(88, 131, 81, .80);
     transition: 0.3s;
+    color: #fff;
+  }
+
+  [type="radio"] + label::before {
+    height: 1em;
+    width: 1em;
+  }
+
+  .btn-ghost-adopt {
+    background-color: rgba(88, 131, 81, 1);
   }
