@@ -13,14 +13,20 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito:800|PT+Sans:400,700" rel="stylesheet">
 </head>
 <body>
-  <header class="zindex-1 nav-dark pad-b-1-2">
+
+  <ul class="skip-links">
+    <li><a href="#nav">Skip to navigation</a></li>
+    <li><a href="#main">Skip to the main content</a></li>
+  </ul>
+
+  <header role="banner" class="zindex-1 nav-dark pad-b-1-2">
     <div class="section-heading gutter">
       <a class="logo-link" href="index.html">
         <img src="images/logo.svg" alt="">
       </a>
     </div>
     <div class="section-nav wrapper">
-      <nav>
+      <nav role="navigation" id="nav">
         <input type="checkbox" class="nav-check" id="nav-check">
         <label class="nav-label" for="nav-check">
           <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
@@ -41,73 +47,75 @@
     </div>
   </header>
 
-  <section class="main-banner relative">
-    <div class="banner-text absolute">
-      <h1 class="tena">Welcome to Sloth Sanctuary</h1>
-      <p class="giga">Learn more about sloths and how to help them thrive!</p>
-      <a class="btn btn-ghost" href="adopt.html">Adopt one today!</a>
-    </div>
-  </section>
+  <main role="main" id="main">
+    <section class="main-banner relative">
+      <div class="banner-text absolute">
+        <h1 class="tena">Welcome to Sloth Sanctuary</h1>
+        <p class="giga">Learn more about sloths and how to help them thrive!</p>
+        <a class="btn btn-ghost" href="adopt.html">Adopt one today!</a>
+      </div>
+    </section>
 
-  <section class="sloth-facts relative">
+    <section class="sloth-facts relative">
 
-    <div class="pad-t-2 pad-b-2 gutter">
-      <h2 class="exa center-text">8 Facts About Sloths</h2>
-      <hr class="dash center-text">
-      <div class="grid wrapper pad-t-2">
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
-          <h3 class="tena push-0">1</h3>
-          <h4 class="push-0">Scientific Name</h4>
-          <p>Bradypus variegatus</p>
-        </div>
-        <div class="unit xs-1 s-1-2 m-1-2 l-2-3 gutter-half">
-          <h3 class="tena push-0">2</h3>
-          <h4 class="push-0">Bathroom habits</h4>
-          <p>About once every week, they descend to go to the bathroom, slowly moving about by digging their front claws into the dirt and dragging their bodies.</p>
-        </div>
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
-          <h3 class="tena push-0">3</h3>
-          <h4 class="push-0">Diet</h4>
-          <p>Herbivore</p>
-        </div>
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
-          <h3 class="tena push-0">4</h3>
-          <h4 class="push-0">Life Span</h4>
-          <p>10 years</p>
-        </div>
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
-          <h3 class="tena push-0">5</h3>
-          <h4 class="push-0">Habitat</h4>
-          <p>Forest</p>
-        </div>
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
-          <h3 class="tena push-0">6</h3>
-          <h4 class="push-0">Weight</h4>
-          <p>8-17 lbs</p>
-        </div>
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
-          <h3 class="tena push-0">7</h3>
-          <h4 class="push-0">Length</h4>
-          <p>2-2.5 feet</p>
-        </div>
-        <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
-          <h3 class="tena push-0">8</h3>
-          <h4 class="push-0">Range</h4>
-          <p>South America</p>
+      <div class="pad-t-2 pad-b-2 gutter">
+        <h2 class="exa center-text">8 Facts About Sloths</h2>
+        <hr class="dash center-text">
+        <div class="grid wrapper pad-t-2">
+          <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
+            <h3 class="tena push-0">1</h3>
+            <h4 class="push-0">Scientific Name</h4>
+            <p>Bradypus variegatus</p>
+          </div>
+          <div class="unit xs-1 s-1-2 m-1-2 l-2-3 gutter-half">
+            <h3 class="tena push-0">2</h3>
+            <h4 class="push-0">Bathroom habits</h4>
+            <p>About once every week, they descend to go to the bathroom, slowly moving about by digging their front claws into the dirt and dragging their bodies.</p>
+          </div>
+          <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
+            <h3 class="tena push-0">3</h3>
+            <h4 class="push-0">Diet</h4>
+            <p>Herbivore</p>
+          </div>
+          <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
+            <h3 class="tena push-0">4</h3>
+            <h4 class="push-0">Life Span</h4>
+            <p>10 years</p>
+          </div>
+          <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
+            <h3 class="tena push-0">5</h3>
+            <h4 class="push-0">Habitat</h4>
+            <p>Forest</p>
+          </div>
+          <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
+            <h3 class="tena push-0">6</h3>
+            <h4 class="push-0">Weight</h4>
+            <p>8-17 lbs</p>
+          </div>
+          <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
+            <h3 class="tena push-0">7</h3>
+            <h4 class="push-0">Length</h4>
+            <p>2-2.5 feet</p>
+          </div>
+          <div class="unit xs-1 s-1-2 m-1-2 l-1-3 gutter-half">
+            <h3 class="tena push-0">8</h3>
+            <h4 class="push-0">Range</h4>
+            <p>South America</p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="homepage-adopt-banner relative">
-    <div class="push pad-t-2 center-text">
-      <h2 class="tena">Sloths you can adopt</h2>
-      <p class="center-text giga">Did you know that you can adopt a sloth through the Sloth Sanctuary?</p>
-      <a class="btn btn-ghost" href="adopt.html">Adopt one today</a>
-    </div>
-  </section>
+    <section class="homepage-adopt-banner relative">
+      <div class="push pad-t-2 center-text">
+        <h2 class="tena">Sloths you can adopt</h2>
+        <p class="center-text giga">Did you know that you can adopt a sloth through the Sloth Sanctuary?</p>
+        <a class="btn btn-ghost" href="adopt.html">Adopt one today</a>
+      </div>
+    </section>
+  </main>
 
-  <footer class="clearfix pad-top pad-b">
+  <footer role="footer" id="contentinfo" class="clearfix pad-top pad-b">
     <div class="wrapper gutter">
       <div class="socials push">
         <i class="icon i-32">
